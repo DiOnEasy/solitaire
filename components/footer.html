@@ -1,0 +1,34 @@
+
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <p> &#169; All rights reserved <span id="footer__date"></span>
+            </p>
+        </div>
+        <script>
+            document.querySelector('#footer__date').innerHTML = new Date().getFullYear()
+        </script>
+    </footer>
+    <style>
+        .footer {
+            background-color: #f2f2f2;
+            border-top: 1px solid #e0e0e0;
+            border-bottom: 1px solid #e0e0e0;
+            padding: 15px 0;
+
+        }
+
+        .footer__wrapper {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        @media (max-width: 1500px) {
+            .footer__wrapper {
+                max-width: 94%;
+            }
+
+
+        }
+    </style>

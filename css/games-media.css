@@ -1,0 +1,56 @@
+@media (max-width: 1500px) {
+    .about, .rules, .faq__wrapper, .footer__wrapper, .rating__wrapper{
+        max-width: 94%;
+    }
+    .about__main{
+        padding: 0 30px;
+    }
+    .rating__wrapper{
+        column-gap: 10px;
+    }
+   
+}
+
+@media (max-width: 1024px) {
+    .about__header, .rules__main-header, .faq__header{
+        font-size: 32px;
+        margin-top: 48px;
+        line-height: 36px;
+    }
+    .rules__content-header, .faq__item-header{
+        font-size: 24px;
+    }
+    .about__subheader, .about__text, .rating__text, .rating__name, .rules__content-text, .faq__text, .rules__main-text{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .rules__content-image{
+        height: auto;
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    .rules__main-video{
+        max-width: 100%;
+    }
+    .about__media{
+        width: 94%;
+    }
+    .rules__content-image{
+        width: 100%;
+    }
+}
+
+@media (max-width: 640px) {
+    .rating__wrapper{
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 15px;
+    }
+    .about__main{
+        padding: 0;
+    }
+    .about__media{
+        width: 100%;
+    }
+}
